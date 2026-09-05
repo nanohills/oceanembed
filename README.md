@@ -7,6 +7,23 @@
 - For SSH, data is around ~`0.16GB`
 
 
+## To download data
+
+1. SST
+```
+python download_sst.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/sst 
+```
+
+2. SSS
+```
+python download_sss.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/sss
+```
+
+3. SSH
+```
+python download_ssh.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/ssh
+```
+
 # claude's plan
 
 ## Phase 1: Data Acquisition
