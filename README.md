@@ -1,4 +1,15 @@
-## Phase 1: Data Acquisition (you're partway here already)
+# Step 1. Data collection
+
+- We're collecting the data from `1 Jan 2019` to `31 Dec 2023` (5 years) [daily, multi-year]
+- Over the region of North Indian Ocean (5°N to 30°N and 45°E to 105°E)
+- For SST, data is around ~`3GB`
+- For SSS, data is around ~`0.65GB`
+- For SSH, data is around ~`0.16GB`
+
+
+# claude's plan
+
+## Phase 1: Data Acquisition
 
 1. **Download all 5 surface input variables** for the full North Indian Ocean box (5-30N, 45-105E), daily, for your chosen year range: SST (done), SSS, SSH/SLA, currents (U,V), winds (U,V)
 2. **Download the target variable**: GLORYS reanalysis temperature at all 15 depth levels, same domain, same date range
@@ -30,7 +41,7 @@
 ## Phase 6: Demo & Submission
 
 15. **Build the PoC visualization**, zoomed into Bay of Bengal or Arabian Sea as the PS explicitly calls for, even though training covered the full domain
-Here's the breakdown, in the order you'd actually execute them.
+    Here's the breakdown, in the order you'd actually execute them.
 
 ## Phase 1: Data Acquisition (you're partway here already)
 

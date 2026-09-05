@@ -5,5 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "cftime>=1.6.5",
     "copernicusmarine>=2.4.1",
+    "harmony-py>=0.4.15",
+    "podaac-data-subscriber>=1.15.2",
 ]
