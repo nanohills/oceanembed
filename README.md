@@ -24,6 +24,16 @@ python download_sss.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/sss
 python download_ssh.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/ssh
 ```
 
+4. Winds
+```
+ python download_winds.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/winds
+```
+
+5. Currents
+```
+python download_currents.py --start 2019-01-01 --end 2023-12-31 --outdir ./data/currents
+```
+
 # claude's plan
 
 ## Phase 1: Data Acquisition
