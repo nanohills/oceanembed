@@ -7,6 +7,9 @@ requires-python = ">=3.14"
 dependencies = [
     "cftime>=1.6.5",
     "copernicusmarine>=2.4.1",
+    "earthaccess>=0.19.0",
+    "h5netcdf>=1.8.1",
     "harmony-py>=0.4.15",
     "podaac-data-subscriber>=1.15.2",
+    "scipy>=1.18.1",
 ]
